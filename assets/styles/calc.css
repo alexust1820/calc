@@ -1,0 +1,10 @@
+.calc {
+	background-color: var(--c-calc);
+	padding: 30px;
+	box-shadow: var(--c-calc-shadow);
+	animation-duration: 2.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	border-radius: 5px;
+	box-shadow: 15px 15px 15px 0px var(--c-shadow);
+}

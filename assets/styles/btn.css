@@ -1,0 +1,43 @@
+.btn {
+	padding: 15px 20px;
+	border: none;
+	min-width: 70px;
+	min-height: 50px;
+	border-radius: 5px;
+	margin: 0 10px 10px 0;
+	transition: .5s;
+}
+
+.btn.-c {
+	background-color: var(--c-red);
+	color: var(--c-white);
+	margin: 0 30px 0 0;
+}
+
+.btn.-action {
+	background-color: var(--c-action);
+	margin-right: 0;
+}
+
+.btn:hover {
+	transition: .2s;
+	background-color: var(--c-btn-hover);
+	transform: scale(1.15);
+}
+
+.btn.-c:hover {
+	background-color: var(--c-white);
+	transform: scale(1.15);
+}
+
+.btn.-action:hover {
+	background-color: var(--c-action-hover);
+}
+
+.btn.-action.-margin {
+	margin-right: 10px;
+}
+
+.btn.-rovno:hover {
+	background-color: var(--c-rovno);
+}
